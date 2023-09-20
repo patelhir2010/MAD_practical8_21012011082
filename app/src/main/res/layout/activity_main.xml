@@ -33,7 +33,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
-                app:srcCompat="@"
+                app:srcCompat="@drawable/alarm"
                 android:scaleType="fitXY"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -49,14 +49,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="@string/by_pressing_buttons_alarm_can_be_created_and_cancelled"
+                    android:text="By Pressing Buttons,Alarm can be created and cancelled"
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="?android:attr/textColorSecondary"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="@string/check_current_time_by_looking_below_real_digital_clock"
+                    android:text="Check Current time by looking below real digital clock"
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="?android:attr/textColorSecondary"/>
                 <TextClock
@@ -77,7 +77,7 @@
                     android:text="Create Alarm"
                     app:icon="@drawable/baseline_add_alarm_24"
                     android:layout_marginEnd="8dp"
-                    android:backgroundTint="@color/cardview_dark_background"/>
+                    android:backgroundTint="@color/material_dynamic_neutral20"/>
 
             </LinearLayout>
         </LinearLayout>
