@@ -130,6 +130,12 @@
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
+                        <com.google.android.material.button.MaterialButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cancel Alarm"
+                            app:icon="@drawable/baseline_add_alarm_24"
+                            android:backgroundTint="@color/material_dynamic_neutral20"/>
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
